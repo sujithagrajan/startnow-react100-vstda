@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ToDoForm from "./components/ToDoForm";
-import ToDoList from "./components/ToDoList";
-import ToDoListItem from "./components/ToDoListItem";
+import ToDoForm from "./components/ToDoFormm";
+import ToDoList from "./components/ToDoListm";
+import ToDoListItem from "./components/ToDoListItemm";
 
 var counter = 0;
 class App extends Component {

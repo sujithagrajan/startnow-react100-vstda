@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import ToDoForm from "./components/ToDoFormm";
-import ToDoList from "./components/ToDoListm";
-import ToDoListItem from "./components/ToDoListItemm";
+import ToDoForm from "./components/ToDoFormnew";
+import ToDoList from "./components/ToDoListnew";
+import ToDoListItem from "./components/ToDoListItemnew";
 
 var counter = 0;
 class App extends Component {
@@ -75,8 +75,8 @@ class App extends Component {
         <h1 style={{color:"white"}}>Very Simple Todo App</h1>
         <p style={{color:"white"}}>Track all of the things</p>
         <hr/>
-        <TodoForm addItem={this.addItem} />
-        <TodoList
+        <ToDoForm addItem={this.addItem} />
+        <ToDoList
           items={this.state.todoItems}
           removeItem={this.removeItem}
           header={header}
